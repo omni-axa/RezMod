@@ -1,0 +1,664 @@
+BACKUP ~RezMod/backup~
+AUTHOR ~Lollorian~
+README ~RezMod/Readme.htm~
+VERSION ~2.4~
+
+AUTO_TRA ~RezMod/%s~
+
+LANGUAGE ~English~ ~english~
+         ~RezMod/english/setup.tra~
+LANGUAGE ~Castalleno (por Lisandro)~ ~spanish~
+         ~RezMod/english/setup.tra~
+         ~RezMod/spanish/setup.tra~
+
+BEGIN @0
+
+//SoA part
+
+COPY ~RezMod/masamune/itm/XOGXSCRL.ITM~      ~override/XOGXSCRL.ITM~         
+  SAY NAME1 @5
+  SAY NAME2 @6
+  SAY DESC @7
+
+COPY ~RezMod/masamune/itm/XOMASMUN.ITM~      ~override/XOMASMUN.ITM~         
+  SAY NAME1 @8
+  SAY NAME2 @9
+  SAY UNIDENTIFIED_DESC @10
+  SAY DESC @11
+
+COPY ~RezMod/masamune/itm/XOMASA.ITM~      ~override/XOMASA.ITM~         
+  SAY NAME1 @14
+  SAY NAME2 @15
+  SAY UNIDENTIFIED_DESC @16
+  SAY DESC @17
+
+COPY ~RezMod/masamune/itm/XOMUNE.ITM~      ~override/XOMUNE.ITM~         
+  SAY NAME1 @14
+  SAY NAME2 @18
+  SAY UNIDENTIFIED_DESC @16
+  SAY DESC @19
+
+COPY_EXISTING ~HLDEMI.CRE~      ~override/HLDEMI.CRE~         
+  PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+	ADD_CRE_ITEM ~XOMUNE~ #0 #0 #0 ~NONE~ ~INV~
+	ADD_CRE_ITEM ~XOGXSCRL~ #0 #0 #0 ~NONE~ ~INV~
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~MAEVAR.CRE~      ~override/MAEVAR.CRE~         
+  PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+    SET_BG2_PROFICIENCY ~PROFICIENCYSCIMITARWAKISASHININJATO~ 5
+	ADD_CRE_ITEM ~XOMASA.ITM~ #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+EXTEND_BOTTOM ~ar0334.bcs~ ~RezMod/masamune/baf/AR0334.baf~
+
+COMPILE ~RezMod/masamune/d/WSMITH01.d~
+
+BEGIN @33
+REQUIRE_PREDICATE GAME_IS ~tob~ @34
+REQUIRE_COMPONENT ~Setup-RezMod.tp2~ 0 @35
+
+//ToB
+
+COPY ~RezMod/masamune/itm/XODOREEN.ITM~        ~override/XODOREEN.ITM~         
+  SAY NAME1 @1
+  SAY NAME2 @2
+  SAY UNIDENTIFIED_DESC @3
+  SAY DESC @4
+
+COPY ~RezMod/masamune/itm/XOMSTMUN.ITM~      ~override/XOMSTMUN.ITM~         
+  SAY NAME1 @8
+  SAY NAME2 @12
+  SAY UNIDENTIFIED_DESC @10
+  SAY DESC @13
+  
+COPY_EXISTING ~GROMNIR.CRE~     ~override/GROMNIR.CRE~        
+  PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+    SET_BG2_PROFICIENCY ~PROFICIENCYLONGSWORD~ 5
+	REPLACE_CRE_ITEM ~XODOREEN~ #0 #3 #0 ~NONE~ ~WEAPON1~ EQUIP
+    REPLACE_CRE_ITEM ~BLUN35~ #0 #0 #0 ~NONE~ ~SHIELD~ EQUIP	//Make Gromnir dualwield his Ice Star +4
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+EXTEND_BOTTOM ~BOTSMITH.BCS~ ~RezMod/masamune/baf/BOTSMITH.baf~
+
+COMPILE ~RezMod/masamune/d/BOTSMITH.d~
+
+BEGIN @29
+
+//Anarg's Helm
+
+COPY ~RezMod/Anarg/XOHEANAR.ITM~      ~override/XOHEANAR.ITM~         
+  SAY NAME1 @30
+  SAY NAME2 @31
+  SAY DESC @32
+  
+COPY_EXISTING ~kaypal01.cre~ ~override/kaypal01.cre~
+  PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+	ADD_CRE_ITEM ~XOHEANAR~ #0 #0 #0 ~NONE~ ~HELMET~ EQUIP
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+BEGIN @36
+
+COPY ~RezMod/ioun~ ~override~
+
+//Green Iouns
+
+ACTION_FOR_EACH ioun IN ~F_GRIOUN~ ~IOUNX3~ ~AGHELM20~ ~r#plathe~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%ioun%.itm~ THEN BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~ij#ionf1.bam~ THEN BEGIN
+			COPY_EXISTING ~%ioun%.itm~ ~override~
+				PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+					LAUNCH_PATCH_FUNCTION DELETE_ITEM_EQEFFECT
+						INT_VAR opcode_to_delete = "215"
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ij#ionf1~
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ij#ionf2~
+					END
+				END
+			BUT_ONLY_IF_IT_CHANGES
+		END
+	END
+END
+
+//Black Iouns
+
+ACTION_FOR_EACH ioun IN ~psHelm02~ ~IOUNX9~ ~MGIHELM2~ ~MGVHELM2~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%ioun%.itm~ THEN BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~ion1b.bam~ THEN BEGIN
+			COPY_EXISTING ~%ioun%.itm~ ~override~
+				PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+					LAUNCH_PATCH_FUNCTION DELETE_ITEM_EQEFFECT
+						INT_VAR opcode_to_delete = "215"
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ION1B~
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ION2B~
+					END
+				END
+			BUT_ONLY_IF_IT_CHANGES
+		END
+	END
+END
+
+//Blue Iouns
+
+ACTION_FOR_EACH ioun IN ~CBGEMSEE~ ~IOUNX7~ ~YxGift~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%ioun%.itm~ THEN BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~lol#blu1.bam~ THEN BEGIN
+			COPY_EXISTING ~%ioun%.itm~ ~override~
+				PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+					LAUNCH_PATCH_FUNCTION DELETE_ITEM_EQEFFECT
+						INT_VAR opcode_to_delete = "215"
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~lol#blu1~
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~lol#blu2~
+					END
+				END
+			BUT_ONLY_IF_IT_CHANGES
+		END
+	END
+END
+
+//Sky Blue Iouns
+
+ACTION_FOR_EACH ioun IN ~AMSOUL01~ ~CBWTNI2a~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%ioun%.itm~ THEN BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~ij#iony1.bam~ THEN BEGIN
+			COPY_EXISTING ~%ioun%.itm~ ~override~
+				PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+					LAUNCH_PATCH_FUNCTION DELETE_ITEM_EQEFFECT
+						INT_VAR opcode_to_delete = "215"
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ij#iony1~
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ij#iony2~
+					END
+				END
+			BUT_ONLY_IF_IT_CHANGES
+		END
+	END
+END
+
+//Yellow Iouns
+
+ACTION_FOR_EACH ioun IN ~FREEHLM1~ ~SGHELM2~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%ioun%.itm~ THEN BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~ION1G.bam~ THEN BEGIN
+			COPY_EXISTING ~%ioun%.itm~ ~override~
+				PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+					LAUNCH_PATCH_FUNCTION DELETE_ITEM_EQEFFECT
+						INT_VAR opcode_to_delete = "215"
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ION1G~
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ION2G~
+					END
+				END
+			BUT_ONLY_IF_IT_CHANGES
+		END
+	END
+END
+
+//Grey Iouns
+
+ACTION_FOR_EACH ioun IN ~FWHelm01~ ~O!BOM016~ ~O!BOM017~ ~O!BOM018~ ~O!BOM019~ ~O!BOM020~ ~O!BOM021~ ~O!BOM022~ ~VxHEL~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%ioun%.itm~ THEN BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~ij#iong1.bam~ THEN BEGIN
+			COPY_EXISTING ~%ioun%.itm~ ~override~
+				PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+					LAUNCH_PATCH_FUNCTION DELETE_ITEM_EQEFFECT
+						INT_VAR opcode_to_delete = "215"
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ij#iong1~
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ij#iong2~
+					END
+				END
+			BUT_ONLY_IF_IT_CHANGES
+		END
+	END
+END
+
+//Brown Iouns
+
+ACTION_FOR_EACH ioun IN ~c!ivory~ ~agioun01~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%ioun%.itm~ THEN BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~IJ#iony3.bam~ THEN BEGIN
+			COPY_EXISTING ~%ioun%.itm~ ~override~
+				PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+					LAUNCH_PATCH_FUNCTION DELETE_ITEM_EQEFFECT
+						INT_VAR opcode_to_delete = "215"
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~IJ#iony3~
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~IJ#iony4~
+					END
+				END
+			BUT_ONLY_IF_IT_CHANGES
+		END
+	END
+END
+
+//White Iouns
+
+ACTION_FOR_EACH ioun IN ~HELM35~ ~CDIOUN2~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%ioun%.itm~ THEN BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~ij#ionw1.bam~ THEN BEGIN
+			COPY_EXISTING ~%ioun%.itm~ ~override~
+				PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+					LAUNCH_PATCH_FUNCTION DELETE_ITEM_EQEFFECT
+						INT_VAR opcode_to_delete = "215"
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ij#ionw1~
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ij#ionw2~
+					END
+				END
+			BUT_ONLY_IF_IT_CHANGES
+		END
+	END
+END
+
+//Red Iouns
+
+ACTION_FOR_EACH ioun IN ~fhioun~ ~E_Helm0~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%ioun%.itm~ THEN BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~ION1R.bam~ THEN BEGIN
+			COPY_EXISTING ~%ioun%.itm~ ~override~
+				PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+					LAUNCH_PATCH_FUNCTION DELETE_ITEM_EQEFFECT
+						INT_VAR opcode_to_delete = "215"
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ION1R~
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ION2R~
+					END
+				END
+			BUT_ONLY_IF_IT_CHANGES
+		END
+	END
+END
+
+//Pink Iouns
+
+ACTION_FOR_EACH ioun IN ~u#helm03~ ~O!BOM023~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%ioun%.itm~ THEN BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~IJ#ionp3.bam~ THEN BEGIN
+			COPY_EXISTING ~%ioun%.itm~ ~override~
+				PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+					LAUNCH_PATCH_FUNCTION DELETE_ITEM_EQEFFECT
+						INT_VAR opcode_to_delete = "215"
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~IJ#ionp3~
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~IJ#ionp4~
+					END
+				END
+			BUT_ONLY_IF_IT_CHANGES
+		END
+	END
+END
+
+//Orange Iouns
+
+ACTION_FOR_EACH ioun IN ~NEWHE02~ ~u#helm01~ ~u#helm02~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%ioun%.itm~ THEN BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~ION1GD.bam~ THEN BEGIN
+			COPY_EXISTING ~%ioun%.itm~ ~override~
+				PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+					LAUNCH_PATCH_FUNCTION DELETE_ITEM_EQEFFECT
+						INT_VAR opcode_to_delete = "215"
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ION1GD~
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ION2GD~
+					END
+				END
+			BUT_ONLY_IF_IT_CHANGES
+		END
+	END
+END
+
+//Dark Purple Iouns
+
+ACTION_FOR_EACH ioun IN ~CDIOUN1~ ~IOUNX8~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%ioun%.itm~ THEN BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~ION1.bam~ THEN BEGIN
+			COPY_EXISTING ~%ioun%.itm~ ~override~
+				PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+					LAUNCH_PATCH_FUNCTION DELETE_ITEM_EQEFFECT
+						INT_VAR opcode_to_delete = "215"
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ION1~
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ION2~
+					END
+				END
+			BUT_ONLY_IF_IT_CHANGES
+		END
+	END
+END
+
+//Light Purple Iouns
+
+ACTION_FOR_EACH ioun IN ~TuStoneB~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%ioun%.itm~ THEN BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~ij#ionu1.bam~ THEN BEGIN
+			COPY_EXISTING ~%ioun%.itm~ ~override~
+				PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+					LAUNCH_PATCH_FUNCTION DELETE_ITEM_EQEFFECT
+						INT_VAR opcode_to_delete = "215"
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ij#ionu1~
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~ij#ionu2~
+					END
+				END
+			BUT_ONLY_IF_IT_CHANGES
+		END
+	END
+END
+
+//Special Iouns
+//Gem of Harmony - Blue with yellow trail
+
+ACTION_FOR_EACH ioun IN ~gemh1~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%ioun%.itm~ THEN BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~IJ#iony5.bam~ THEN BEGIN
+			COPY_EXISTING ~%ioun%.itm~ ~override~
+				PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+					LAUNCH_PATCH_FUNCTION DELETE_ITEM_EQEFFECT
+						INT_VAR opcode_to_delete = "215"
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~IJ#iony5~
+					END
+					LAUNCH_PATCH_FUNCTION ADD_ITEM_EQEFFECT
+						INT_VAR opcode = "215"
+						target = "1"
+						timing = "2"
+						parameter2 = "1"
+						STR_VAR resource = ~IJ#iony6~
+					END
+				END
+			BUT_ONLY_IF_IT_CHANGES
+		END
+	END
+END
+
+//Portrait stuffz
+
+BEGIN @101
+	GROUP @100
+	DESIGNATED 100
+
+ACTION_FOR_EACH edwin IN ~CWSEDW~ ~E35~ ~EDWIN~ ~EDWIN11~ ~EDWIN12~ ~EDWIN13~ ~EDWIN15~ ~EDWIN2~ ~EDWIN4~ ~EDWIN6~ ~EDWIN7~ ~EDWIN9~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%edwin%.cre~ THEN BEGIN
+		COPY_EXISTING ~%edwin%.cre~ ~override~
+			PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+				WRITE_ASCII 0x34 ~NEDWINS~ #8
+				WRITE_ASCII 0x3c ~NEDWINM~ #8
+			END
+		BUT_ONLY_IF_IT_CHANGES
+	END
+END
+
+BEGIN @102
+	GROUP @100
+	DESIGNATED 101
+
+ACTION_FOR_EACH imoen IN ~BPIMOEN~ ~CB3513IM~ ~CBIMOENL~ ~CSIMOEN~ ~CUIMOEN~ ~CUIMOEN2~ ~CUIMOEN3~ ~CWSIMO~ ~DPIMO01~ ~DREAM1~ ~DRIM01~ ~DRIM02~ ~FINIMOEN~ ~IMDREA2~ ~IMDREAM~ ~IMOEN~ ~IMOEN1~ ~IMOEN10~ ~IMOEN15~ ~IMOEN2~ ~IMOEN211~ ~IMOEN213~ ~IMOEN4~ ~IMOEN6~ ~IMOEN61~ ~IMOENDRM~ ~PPDRIMO~ ~PPDRIMOV~ ~PPIMOEN~ ~TTIMOEN~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%imoen%.cre~ THEN BEGIN
+		COPY_EXISTING ~%imoen%.cre~ ~override~
+			PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+				WRITE_ASCII 0x34 ~NIMOENS~ #8
+				WRITE_ASCII 0x3c ~NIMOENM~ #8
+			END
+		BUT_ONLY_IF_IT_CHANGES
+	END
+END
+
+BEGIN @103
+	GROUP @100
+	DESIGNATED 102
+
+ACTION_FOR_EACH jaheira IN ~BPJAHEIR~ ~CB3513JH~ ~CBJAHDED~ ~D0JAHREV~ ~E36~ ~IDIOT01~ ~JAHEI12B~ ~JAHEI14~ ~JAHEIR~ ~JAHEIR11~ ~JAHEIR12~ ~JAHEIR2~ ~JAHEIR4~ ~JAHEIR6~ ~JAHEIR8~ ~JAHEIRD~ ~TTJAHIER~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%jaheira%.cre~ THEN BEGIN
+		COPY_EXISTING ~%jaheira%.cre~ ~override~
+			PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+				WRITE_ASCII 0x34 ~NJAHEIRS~ #8
+				WRITE_ASCII 0x3c ~NJAHEIRM~ #8
+			END
+		BUT_ONLY_IF_IT_CHANGES
+	END
+END
+
+BEGIN @104
+	GROUP @100
+	DESIGNATED 103
+
+ACTION_FOR_EACH minsc IN ~BPMINSC~ ~CB3513MN~ ~CBMINDED~ ~CWSMIN~ ~E32~ ~MINSC~ ~MINSC10~ ~MINSC12~ ~MINSC14~ ~MINSC2~ ~MINSC4~ ~MINSC6~ ~MINSC7~ ~MINSC8~ ~MINSC9~ ~TTMINSC~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%minsc%.cre~ THEN BEGIN
+		COPY_EXISTING ~%minsc%.cre~ ~override~
+			PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+				WRITE_ASCII 0x34 ~NMINSCS~ #8
+				WRITE_ASCII 0x3c ~NMINSCM~ #8
+			END
+		BUT_ONLY_IF_IT_CHANGES
+	END
+END
+
+BEGIN @105
+	GROUP @100
+	DESIGNATED 104
+
+ACTION_FOR_EACH viconia IN ~CB3513VC~ ~CWSVIC~ ~VICONI~ ~VICONI11~ ~VICONI13~ ~VICONI16~ ~VICONI4~ ~VICONI6~ ~VICONI61~ ~VICONI8~ ~VICONI9~ ~VICYBOAT~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%viconia%.cre~ THEN BEGIN
+		COPY_EXISTING ~%viconia%.cre~ ~override~
+			PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+				WRITE_ASCII 0x34 ~NVICONS~ #8
+				WRITE_ASCII 0x3c ~NVICONM~ #8
+			END
+		BUT_ONLY_IF_IT_CHANGES
+	END
+END
+
+BEGIN @106
+	GROUP @100
+	DESIGNATED 105
+
+ACTION_FOR_EACH kivan IN ~CB3513VC~ ~KIVAN~ ~KIVAN10~ ~KIVAN12~ ~KIVAN13~ ~KIVAN4~ ~KIVAN6~ ~P#KIVAN~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%kivan%.cre~ THEN BEGIN
+		COPY_EXISTING ~%kivan%.cre~ ~override~
+			PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+				WRITE_ASCII 0x34 ~KIVANS~ #8
+				WRITE_ASCII 0x3c ~KIVANM~ #8
+			END
+		BUT_ONLY_IF_IT_CHANGES
+	END
+END
+
+BEGIN @107
+	GROUP @100
+	DESIGNATED 106
+
+ACTION_FOR_EACH ajantis IN ~AJANTI~ ~AJANTI4~ ~AJANTI6~ ~C#AJAN08~ ~C#AJAN09~ ~C#AJAN10~ ~C#AJAN12~ ~C#AJAN14~ ~C#AJAN16~ ~X#AJANFI~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%ajantis%.cre~ THEN BEGIN
+		COPY_EXISTING ~%ajantis%.cre~ ~override~
+			PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+				WRITE_ASCII 0x34 ~AJANTISS~ #8
+				WRITE_ASCII 0x3c ~AJANTISM~ #8
+			END
+		BUT_ONLY_IF_IT_CHANGES
+	END
+END
+
+BEGIN @108
+	GROUP @100
+	DESIGNATED 107
+
+ACTION_FOR_EACH anomen IN ~ANOMEN10~ ~ANOMEN12~ ~ANOMEN6~ ~ANOMEN7~ ~ANOMEN8~ ~ANOMEN9~ ~CWSANO~ ~STJANO~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%anomen%.cre~ THEN BEGIN
+		COPY_EXISTING ~%anomen%.cre~ ~override~
+			PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+				WRITE_ASCII 0x34 ~AJANTISS~ #8
+				WRITE_ASCII 0x3c ~AJANTISM~ #8
+			END
+		BUT_ONLY_IF_IT_CHANGES
+	END
+END
+
+BEGIN @109
+	GROUP @100
+	DESIGNATED 108
+
+ACTION_FOR_EACH yoshimo IN ~D0T#YOSH~ ~YOSHI~ ~YOSHI11~ ~YOSHI12~ ~YOSHI7~ ~YOSHI8~ BEGIN
+	ACTION_IF FILE_EXISTS_IN_GAME ~%yoshimo%.cre~ THEN BEGIN
+		COPY_EXISTING ~%yoshimo%.cre~ ~override~
+			PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+				WRITE_ASCII 0x34 ~AJANTISS~ #8
+				WRITE_ASCII 0x3c ~AJANTISM~ #8
+			END
+		BUT_ONLY_IF_IT_CHANGES
+	END
+END

@@ -1,0 +1,14 @@
+[weidu.exe] WeiDU version 21300
+[weidu.exe] Using scripting style "BG2"
+[RezMod/english/setup.tra] has 45 translation strings
+~REZMOD\SETUP-REZMOD.TP2~ #0 #0 // Masamune Sword Mini-Mini-Quest - SoA by ShadowDaemon (WeiDU): 2.4
+~REZMOD\SETUP-REZMOD.TP2~ #0 #1 // Masamune Sword Mini-Mini-Quest - ToB by ShadowDaemon (WeiDU): 2.4
+~REZMOD\SETUP-REZMOD.TP2~ #0 #2 // Improved Anarg by knightlight (WeiDU): 2.4
+~REZMOD\SETUP-REZMOD.TP2~ #0 #3 // Extended Visual Ioun Stones by WoRm: 2.4
+~REZMOD\SETUP-REZMOD.TP2~ #0 #100 // Give Edwin his BGII portrait: 2.4
+~REZMOD\SETUP-REZMOD.TP2~ #0 #101 // Give Imoen her BGII portrait: 2.4
+~REZMOD\SETUP-REZMOD.TP2~ #0 #102 // Give Jaheira her BGII portrait: 2.4
+~REZMOD\SETUP-REZMOD.TP2~ #0 #103 // Give Minsc his BGII portrait: 2.4
+~REZMOD\SETUP-REZMOD.TP2~ #0 #104 // Give Viconia her BGII portrait: 2.4
+~REZMOD\SETUP-REZMOD.TP2~ #0 #105 // Give Kivan his BGI portrait: 2.4
+~REZMOD\SETUP-REZMOD.TP2~ #0 #106 // Give Ajantis his BGI portrait: 2.4

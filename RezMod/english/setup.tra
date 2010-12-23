@@ -1,0 +1,235 @@
+@0   = ~Masamune Sword Mini-Mini-Quest - SoA by ShadowDaemon (WeiDU)~
+@1   = ~Long Sword~
+@2   = ~Doreen +4~
+@3   = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords.  In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era.  Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches.  In the latter case, the blade is known to take up 40 inches of the total length.  Most long swords have a double-edged blade and a sharp point at the tip.  Despite the tip, the long sword is designed for slashing, not thrusting. 
+
+STATISTICS:
+
+Damage:  1D8
+Damage type:  slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@4   = ~Long Sword of Beauty +4: Doreen
+Doreen, or Do'Ree'Nelissixia as pronounced in draconic, was an ancient and proud gold dragon.  While probably the longest lived of any species in the realms, dragons too, eventually grow old and die.  When it came to be that Doreen saw her own end, she could not bear to deprive the world of her beauty.  Before she died, she passed her soul into the one object that could be like herself, beautiful and deadly at the same time, a sword.  She plucked the finest blade from her considerable hoard, and gave up her life, so to speak, into this blade.
+
+The wielder of Doreen will find that not only is the beauty of a gold dragon passed to them, but the intelligence and wisdom of one who has lived many millennia is now at their grasp.  Fighter mages would loath to pass this blade up, and indeed, it has passed through the hands of many fighter-mages to come to yours.
+
+Doreen has become attuned to the attitudes of blades, and may once per day, summon three dancing blades to fight for her wielder.
+
+STATISTICS:
+
+Intelligence +2
+Wisdom +2
+Charisma +2
+Sword Summons: Summon 3 dancing swords once per day.  Dancing swords can attack on their own for 4 rounds.
+
+THACO:  +4 bonus
+Damage:  1D8 +4
+Damage type:  slashing
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Long sword
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@5   = ~Scroll~
+@6   = ~Entry from Kangaxx's Journal~
+@7   = ~... It would appear that this dragon soul I have in this pretty little sword is more sentient than I thought.  It calls a brother, and I can only assume It means the sneak-thief dragon in that blade that was stolen a while ago.  I must find a way to muffle his call however, as those who would betray me can probably hear the call as well...
+
+There don't appear to be any more entries~
+@8   = ~Katana~
+@9   = ~Masamune +4~
+@10  = ~Katana
+The katana is a single-edged, slightly curved sword that ends with a chisel point.  The katana is perhaps one of the finest swords ever made, the steps to its creation a long and secret process, that is more art form than anything else.  This blade is an important facet of Kara-Tur culture.  To touch or wield a samurai's katana is to insult the samurai and to incite his wrath.  For a gaijin, or foreigner, to own such a blade is a rare occurrence.  Either the gaijin is a greatly honored friend of an important minister, or  the gaijin has murdered a samurai.
+
+STATISTICS:
+
+Damage:  1D10
+Damage type:  slashing
+Weight: 6
+Speed Factor: 4
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@11  = ~Katana +4: Masamune
+With both brothers reunited by Cromwell, their powers are both combined and amplified.  Masamune is a scourge to evil and a sword of righteousness.  The love of the brothers protects the wielder from evil while equipped, and the magically sharp blade has a 10% chance of outright decapitating an opponent.
+
+STATISTICS
+
+Strength +2
+Dexterity +2
+Constitution +2
+Hide in Shadows +35%
+Move Silently +35%
+Protection from evil
+Immunity to Charm
+10% Chance of instant death of target by decapitation
+
+THAC0: +4 bonus
+Damage:  1D10 +4 +5 vs. undead
+Damage type:  slashing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@12  = ~Mastermune +6~
+@13  = ~Katana of Dragons +6: Mastermune
+Cespenar has outdone himself this time.  By combining the Masamune with Doreen, the combined might of three benevolent dragons has been condensed into this blade.  This sword fairly hums in your hand, and you know evil treads a fine line with you now.  The powers of the dragons have been amplified yet again, and the thirst for justice from the dragon spirits gives additional fire and electrical damage.
+
+STATISTICS:
+
+Strength +3
+Dexterity +3
+Constitution +3
+Intelligence +3
+Wisdom +3
+Charisma +3
+Hide in shadows +50%
+Move Silently +50%
+Protection from evil while equipped
+20% Chance of target's death by decapitation
+Sword Summons: Summon 5 dancing swords once per day.  Dancing swords can attack on their own for 8 rounds.
+
+THACO:  +6 bonus
+Damage:  2D10+6 +7 to undead +1D6 fire damage +1D6 electrical damage
+Damage type:  slashing
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@14  = ~Wakizashi~
+@15  = ~Masa +2~
+@16  = ~Wakizashi
+The wakizashi, or companion sword is extremely important to samurai.  It is worn at all times, even indoors, and is near the samurai when he sleeps at night.  As finely made as the katana, the wakizashi, a shorter sword with a length between 12 and 24 inches, is a dangerous weapon in the hands of a skilled user.
+
+STATISTICS
+
+Damage:  1D8
+Damage type:  piercing
+Weight:  3
+Speed Factor: 3
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 5 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@17  = ~Wakizashi of Speed +2: Masa
+Ma'Zathix'lithia, or Masa for short, was a young silver dragon known amongst his family as the fastest dragonling to ever walk over Faerun.  He was also known as a trickster who used his talents for quick and stealthy movement to play pranks on his siblings and steal choice bits from the older dragons to add to his own hoard.  Regardless, he was thought of in a fond light by the others of the benevolent silver dragonflight.
+
+Sadly it was this mischievousness that led to his unfortunate demise.  Once in his travels, shapeshifted to a human form of course, he came across a group of black cloaked and hooded mages convening in a secluded grove.  Masa was uninterested in the goings on of lesser beings, but he did notice a very bright and shining gem that the mages were seemingly concentrating their magical energy into.  Masa waited patiently until the mages had finished their ceremony and had moved on to another part of the grove, when he used every stealthy trick he had learned to sneak up to procure the gem, he almost had it in his grasp when his body suddenly stiffened.  He noticed the mages looking at him, their hoods thrown back, the sight of six skeletal liches stared, it seemed, into Masa's very soul.  In a blinding light of anguish, the young dragon's soul was ripped from his body and stored in a gem much like the one he was trying to steal.  "Two of them", said one lich, "What shall be done?".  "I have a plan", said the leader.   Masa's soul was then imbued into this wakizashi, and the blade itself stored in the crypt of the evil leader of the cadre of liches.
+
+Masa's soul has become dedicated to the fighting of evil so that acts like this are not to happen again.  Should he find a partner to aid him, they would surely be all but undefeatable.
+
+Masa's stealth and quickness have permeated this blade, making it a coveted item for thieves all over the realms.  It increases the dexterity of the wielder as well as incrementing the stealth skill of the wielder.  Masa has no speed factor.
+
+STATISTICS
+
+Dexterity +1
+Hide in shadows +25%
+Move Silently +25%
+
+THAC0  +2
+Damage:  1D8+2
+Damage type:  piercing
+Weight:  2
+Speed Factor: 0
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 5 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@18  = ~Mune +2~
+@19  = ~Wakizashi of Strength +2: Mune
+Mun'Ayisslith, Or Mune for short, was the one of the siblings of the silver dragon, Masa.  While Masa was quick and agile, Mune was very strong and hardy.  Mune had a very large sense of duty, and took it upon himself to see that Masa did not come into too much trouble.  His life, although short, was happy, and his death, as his life, centered around duty.
+
+One day, while flying, Mune spotted Masa creeping around the woods in human form, he also spotted what was definitely trouble directly in his brother's path, six liches in a grove.  Masa's light frame would make him a fearsome dragon as an adult, but at his current age, he would be no match in a battle.  Mune took it upon himself to save his brother as well as rid the land of these evil undead wizards.  He swooped down and unleashed a fearsome attack, but the liches overpowered him with their magics.  "What shall we do with this zealous young drake, Kangaxx?", asked one lich to another who obviously was in charge.  "This one's soul is mine."  A blinding flash of pain and then a floating nothingness as Mune's essence was trapped in a soul stone.  After what seemed an eternity, he was awakened, and is mind and essence imbued into this blade.  The lich, Kangaxx, kept Mune with him all the time, and when Kangaxx was imprisoned, Mune was imprisoned with him.
+
+Mune's essence permeates this blade, and grants whomever wields it, bonuses to Strength and Constitution.  Should Mune ever be reunited with his brother, their force would forge a weapon destined to strike fear into the heart of evil all throughout the realms.
+
+STATISTICS
+
+Strength +1
+Constitution +1
+
+THAC0:  +2 bonus
+Damage:  1D8+2 +3 to undead
+Damage type:  piercing
+Weight:  2
+Speed Factor: 2
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 5 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+
+@20  = ~Hmmm... aye, now, this looks interesting...~
+@21  = ~Ancient legends spake of the two unfortunate dragonlings who were captured by an evil lich in two very powerful blades. This sword... this would be Masa, one of those two dragons. Its spirit seems to be restless within the blade. I tell ye what, it's brother, Mune, seems to be very close. In this city perhaps, maybe even this district itself. Find the blade and bring it to me. I'll make sure the brothers stand united. Of course, the illithium needed's gonna bring me down by 20000 gold, if ye could, try to arrange that as well.~
+@22  = ~Ancient legends spake of the two unfortunate dragonlings who were captured by an evil lich in two very powerful blades. This sword... this would be Mune, one of those two dragons. Its spirit seems to be restless within the blade. I tell ye what, it's brother, Masa, seems to be very close. In this city perhaps, maybe even this district itself. Find the blade and bring it to me. I'll make sure the brothers stand united. Of course, the illithium needed's gonna bring me down by 20000 gold, if ye could, try to arrange that as well.~
+@23  = ~Ye have both the dragon brothers, Masa and Mune. Their blades tremble in anxiety. I'll do quick work and make sure they're not disappointed. Do ye have the 20000 gold?~
+@24  = ~Well, let's see what else ye got.~
+
+@25  = ~Hmm... mmmn.... wait... oooooooohhh, shiny sword. Long, pointy and silver too... My precious... heehee. Is it just me, or is Cespenar hear voices?~
+@26  = ~Oh, this Masamune? Crazy name... Cespenar can't even say normal stuffs. Hmm, silver dragon spirits... good for nightmares. Yeah, yeah, it give power too... Aaaaanyway, there is good recipe for this... if yous find some gold dragon spirit, Masamune get more powerful. Me will need 30000 gold for... umm, me will need 30000 gold. Oh yeah, gold dragons no leave their spirit in your dresser or anything, they found only inside items. Geddit? Spirit inside?... No? Ooooh boy, Cespenar gonna have greeeeaaaat time here. *sigh*~
+@27  = ~Ah, you have Masamune... and spirit of gold dragon, Doreen. Where you find this things? You have dragon magnet or something? I take gold and make them together. What should it be called?... Hmm, yeah, Mastermune! The master always watch over you, <CHARNAME>-san... heeheehee~
+@28  = ~Well, let's sees what else you has...~
+@29  = ~Improved Anarg by knightlight (WeiDU)~
+@30  = ~Helmet~
+@31  = ~Anarg's Helm~
+@32  = ~The personal helm of Anarg the Fearless, bestowed upon him by the Order of the Radiant Heart for his bravery. It is said that the helm allowed him to resist many of the powers of the paladin's traditional foes, such as demons, dragons, dark mages, and the undead.
+
+STATISTICS:
+
+Armor Class Bonus:  None
+Special:  Protects Against Critical Hits
+Immune to Charm, Fear, Hold, and Level Drain
+
+Weight: 2
+Usable By:
+  Good-aligned character
+  Cleric
+  Paladin~
+@33  = ~Masamune Sword Mini-Mini-Quest - ToB by ShadowDaemon (WeiDU)~
+@34  = ~ToB required ... You don't get the shiny +6 sword! HA!!!~
+@35  = ~SoA portion required! NO CHEATING!!!~
+@36  = ~Extended Visual Ioun Stones by WoRm~
+
+@100 = ~Consistent NPC Portraits~
+@101 = ~Consistent Edwin Portrait~
+@102 = ~Consistent Imoen Portrait~
+@103 = ~Consistent Jaheira Portrait~
+@104 = ~Consistent Minsc Portrait~
+@105 = ~Consistent Viconia Portrait~
+@106 = ~Consistent Kivan Portrait~
+@107 = ~Consistent Ajantis Portrait~
+@108 = ~Consistent Anomen Portrait~
+@109 = ~Consistent Yoshimo Portrait~
