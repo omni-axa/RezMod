@@ -1,0 +1,234 @@
+@0   = ~Masamune Schwert Mini-Mini-Quest - SvA by ShadowDaemon (WeiDU)~ 
+@1   = ~Langschwert~
+@2   = ~Doreen +4~ 
+@3   = ~Diese Schwerter werden auch als Schwerter mit zwei Schneiden, Kriegsschwerter oder Militärschwerter bekannt. In vielen Fällen hat das Langschwert nur eine einschneidige Klinge. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 cm und 1,20 m beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweichneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen sondern zum Schwingen vorgesehen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 4
+Initiativefaktor: 5
+Fertigkeit: Langschwert
+Typ: 1-händig
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern~
+@4   = ~Doreen, Langschwert der Schönheit +4
+
+Doreen, oder Do'Ree'Nelissixia, wie sie auf Drachisch hieß, war ein uralter, stolzer Goldener Drache. Als sie ihr eigenes Ende kommen sah, konnte sie es nicht ertragen, dass die Welt ihrer Schönheit beraubt würde. Bevor sie also starb, übertrug sie einen Teil ihrer Seele in das eine Objekt, das ihrer würdig zu sein schien; wunderschön und gleichzeitig tödlich - ein Schwert. Sie nahm die beste Klinge aus ihrem gewaltigen Hord und flößte ihr die Essenz ihres Lebens ein.
+
+Der Träger dieser Waffe wird herausfinden, dass nicht nur die Schönheit eines Goldenen Drachen in ihr steckt, auch die Intelligenz und Weisheit eines Wesens, das Jahrtausende überdauert hat, ist hierin verborgen. Kampfmagier würden eher sterben, als diese Klinge aus der Hand zu geben, und so ist Doreen schon durch viele Hände zur nächsten gewandert, ehe sie in Eure kam.
+
+BESONDERHEITEN
+
+Der Träger kann 1x täglich 3 tanzende Klingen für 4 Runden beschwören.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8+4 (Klinge)
+ETW0-Bonus: -4
+Intelligenz: +2
+Weisheit: +2
+Charisma: +2
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern~ 
+@5   = ~Schriftrolle~
+@6   = ~Eintrag aus Kangaxx Tagebuch~
+@7   = ~... es scheint, als wäre die Drachenseele in diesem hübschen, kleinen Schwert empfindsamer als ich dachte. Sie ruft nach ihrem Bruder und ich kann nur vermuten, dass sie den Drachen in jener Klinge meint, die vor Kurzem gestohlen wurde. Ich muss einen Weg finden, diesen Ruf irgendwie zu dämpfen, denn jene die mich verraten wollen, könnten den Ruf ebenso vernehmen...
+
+(Ende der Einträge)~ 
+@8   = ~Katana~
+@9   = ~Masamune~ 
+@10  = ~Das Katana ist ein Schwert, dessen Klinge nur auf einer Seite scharf ist. Es ist leicht gekrümmt und endet in einer Spitze, die an die Spitze eines Meißels erinnert. Das Katana stellt vermutlich die aufwendigste Form des Schwertes dar. Seine Fertigung ist ein langer, aufwendiger und höchst geheimer Vorgang, den man schon fast als Kunstwerk bezeichnen müsste. Dieses Schwert spielt in der Kultur von Kara-Tur eine wichtige Rolle. Wenn man es wagt, das Katana eines Samurais zu berühren oder gar zu ziehen, beleidigt man den Samurai, dem es gehört, und zieht seinen Zorn auf sich. Es kommt nur äußerst selten vor, dass ein Gaijin, ein Fremder, in den Besitz einer derartigen Waffe kommt. Entweder handelt es sich bei diesem Gaijin dann um den geehrten Freund eines wichtigen Ministers oder um den Mörder eines Samurais.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 (Klinge)
+Gewicht: 6
+Initiativefaktor: 4
+Fertigkeit: Katana
+Typ: 1-händig
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern~
+@11  = ~Masamune, Katana +4
+
+Nachdem Cromwell beide Bruderklingen wiedervereint hat, haben sich deren Kräfte verbunden und weiter verstärkt. Masamune ist eine Geißel für das Böse und ein Schwert der Rechtschaffenheit. Die Liebe der beiden Brüder schützt den Träger vor Bösem und die magischen Kräfte geben ihm die Möglichkeit einen Feind mit einem Schlag zu enthaupten.
+
+BESONDERHEITEN
+
+Immunität gegen Bezauberung.
+Schutz vor Bösem.
+10% Chance auf sofortigen Tod des Ziels durch Enthauptung.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10+4 (Klinge)
+Schadensbonus: +5 gegen Untote
+ETW0-Bonus: -4
+Stärke: +2
+Geschicklichkeit: +2
+Konstitution: +2
+Im Schatten verstecken: +35%
+Leise Bewegen: +35%
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Katana
+Typ: 1-händig
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern~
+@12  = ~Meistermune~ 
+@13  = ~Meistermune, Katana der Drachen +6
+
+Cespenar hat sich dieses Mal selbst übertroffen. Indem er Masamune und Doreen miteinander kombiniert hat, ist die Macht von drei gut gesinnten Drachen in dieser Klinge vereint. Das Schwert summt in Eurer Hand und Ihr wisst, dass das Böse es nun schwer mit Euch haben wird. Die gekoppelte Drachenmacht und deren Durst nach Gerechtigkeit kanalisiert ungeheure Kräfte, die dem Ziel weiteren Feuer- und Elektrizitätsschaden zufügt.
+
+BESONDERHEITEN
+
+Immunität gegen Bezauberung.
+Schutz vor Bösem.
+20% Chance auf sofortigen Tod des Ziels durch Enthauptung.
+Träger kann 1x täglich 5 tanzende Schwerter für 8 Runden beschwören.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W10+6 (Klinge)
+Schadensbonus: 
++1W6 (Feuer)
++1W6 (Elektrizität)
++7 gegen Untote
+ETW0-Bonus: -6
+Stärke: +3
+Geschicklichkeit: +3
+Konstitution: +3
+Intelligenz: +3
+Weisheit: +3
+Charisma: +3
+Im Schatten verstecken: +50%
+Leise Bewegen: +50%
+Gewicht: 2
+Initiativefaktor: 0
+Fertigkeit: Katana
+Typ: 1-händig
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern~
+@14  = ~Wakizashi~ 
+@15  = ~Masa~
+@16  = ~Das Wakizashi, auch Begleitschwert genannt, ist für einen Samurai von höchster Wichtigkeit. Es wird von ihm ständig getragen, auch wenn er sich in einem Gebäude aufhält. Wenn er schläft, liegt es neben ihm. Das Wakizashi ist von ebenso hochwertiger Fertigung wie das Katana. Es ist allerdings deutlich kürzer und die Klinge ist nur 30 bis 60 cm lang. In den Händen eines geschulten Kriegers ist es eine tödliche Waffe.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Stich)
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Typ: 1-händig
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern~
+@17  = ~Masa, Wakizashi der Flinkheit +2
+
+Ma'Zathix'lithia, oder kurz Masa, war ein junger Silberdrache, der auch über seine Familie hinaus als schnellster Drache auf Faerûn bekannt war. Er stand außerdem in dem Ruf, sehr trickreich zu sein, denn er nutzte seine Talente, um sich still und heimlich zu bewegen, seinen Geschwistern Streiche zu spielen und ausgesuchte Stücke von den älteren Drachen zu stehlen und seinem eigenen Hort hinzuzufügen. Nichtsdestotrotz wurde er von den gutmütigen Silberdrachen liebevoll behandelt.
+
+Leider war es gerade diese Schelmenhaftigkeit, die zu seinem unglücklichen Untergang führte. Eines Tages stieß er auf seinen Reisen, natürlich in seine menschliche Gestalt verwandelt, auf eine Gruppe in schwarze Kapuzen gehüllter Magier, die sich auf einem abgelegenen Hain eingefunden hatten. Masa war eigentlich nicht an den Angelegenheiten niederer Wesen interessiert. Er wartete geduldig, bis die Magier ihre Zeremonie beendet hatten und sich zur anderen Seite des Hains bewegten, um sich dann in aller Heimlichkeit den Edelstein der Magier zu beschaffen. Doch gerade als er seine Finger um diesen schloss, erstarrte er. Er bemerkte, dass die Magier ihn ansahen, dann ihre Kapuzen zurückwarfen und hervor kamen sechs skelettierte Leichname, die direkt in seine Seele zu starren schienen. Unter einem blendenden Lichtstrahl wurde die Seele des jungen Drachen voller Schmerz aus seinem Körper gerissen und in einen Edelstein gebunden, ganz ähnlich dem, den er hatte stehlen wollen. "Schon der Zweite.", sprach der eine Leichnam, "Was sollen wir mit ihnen machen?". "Ich habe einen Plan", antwortete der Anführer. Danach wurde Masas Seele in dieses Wakizashi eingearbeitet und die Klinge in der Krypta des Anführers der Leichname selbst verborgen.
+
+Masas Seele ist ganz dem Kampf gegen das Böse gewidmet, damit sich eine solche Tragödie niemals wiederhole. Sollte er einen Helfer finden, wären beide mit Sicherheit unschlagbar.
+
+Masas List und Schnelligkeit haben diese Klinge durchdrungen, was sie zu einem begehrten Artefakt für Diebe überall in den Reichen macht. 
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8+2 (Stich)
+ETW0-Bonus: -2
+Geschicklichkeit: +1
+Im Schatten verstecken: +25%
+Leise Bewegen: +25%
+Gewicht: 2
+Initiativefaktor: 0
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Typ: 1-händig
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern~
+@18  = ~Mune~ 
+@19  = ~Mune, Wakizashi der Stärke +2
+
+Mun'Ayisslith, oder kurz Mune, war einer der Brüder des Silberdrachens Masa. Während Masa schnell und flink war, war Mune stark und strend. Mune hatte ein großes Pflichtbewusstsein und achtete darauf, dass sein Bruder Masa nicht in allzu große Schwierigkeiten kam. Er führte ein glückliches, wenn auch kurzes Leben und sein Tod war wie das Leben durch Pflichterfüllung geprägt.
+
+Eines Tages erblickte Mune beim Fliegen Masa, der in Menschengestalt durch den Wald schlich. Er sah außerdem, dass sein Bruder in Schwierigkeiten war, denn nicht weit entfernt hielten sich sechs Leichname auf einem Hain auf. Masas leichter Körperbau würde ihn einst zu einem furchterregenden Drachen machen, wäre er erstmal ausgewachsen. Aber in seinem derzeitigen Alter wäre er in einer Schlacht keine Herausforderung. Mune nahm es also selbst in die Hand, seinen Bruder zu schützen und die Lande von den bösen, untoten Magiern zu befreien. Er schwebte zu Boden und entfesselte einen fürchterlichen Angriff, aber den Leichnamen gelang es, ihn mit ihren Zauberkräften zu überwältigen. "Was sollen wir mit diesem übereifrigen Jungdrachen anstellen, Kangaxx?", fragte einer der Leichname den anderen. "Seine Seele ist mein!". Ein blendender Lichtstrahl erschien und dann war da ein flüchtiges, endloses Nichts als Munes Essenz in einen Seelenstein gebunden wurde. Nach einer scheinbaren Unendlichkeit erwachte der Drache und sein Geist und Wesen ging in diese Klinge über. Der Leichnam Kangaxx trug Mune jederzeit bei sich und als er eingesperrt wurde, war Mune gleichfalls gefangen.
+
+Munes Wesen durchströmt diese Klinge und garantiert seinem Träger Stärke und Lebenskraft. Sollte er jemals mit seinem Bruder wieder vereinigt werden, würde ihre gemeinsame Kraft eine Waffe schmieden, die Angst und Schrecken in den Herzen des Bösen überall in den Reichen verbreiten würde.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8+2 (Stich)
+Schadensbonus: +3 gegen Untote 
+ETW0-Bonus: -2
+Stärke: +1
+Konstitution: +1
+Im Schatten verstecken: +25%
+Leise Bewegen: +25%
+Gewicht: 2
+Initiativefaktor: 2
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Typ: 1-händig
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern~
+@20  = ~Hmm... aye, nun, das sieht interessant aus...~ 
+@21  = ~Uralte Legenden sprechen von zwei bedauernswerten Drachenjungen, die von einem bösen Lich in zwei mächtige Klingen gebannt wurden. Dieses Schwert... das müsste Masa sein, einer der beiden Drachen. Sein Geist scheint in dieser Klinge scheint ruhelos. Ich werd' Euch was sagen, sein Bruder, Mune, scheint nahe zu sein. In dieser Stadt, vielleicht sogar in diesem Stadtviertel. Findet die Klinge und bringt sie zu mir. Ich werde dafür sorge tragen, dass die beiden Brüder wiedervereint werden. Natürlich, wird das benötigte Illithium seinen Preis kosten, ich würde sagen 20.000 in Gold, falls Ihr das aufrbingen wollt.~ 
+@22  = ~Uralte Legenden sprechen von zwei bedauernswerten Drachenjungen, die von einem bösen Lich in zwei mächtige Klingen gebannt wurden. Dieses Schwert... das müsste Mune sein, einer der beiden Drachen. Sein Geist scheint in dieser Klinge scheint ruhelos. Ich werd' Euch was sagen, sein Bruder, Masa, scheint nahe zu sein. In dieser Stadt, vielleicht sogar in diesem Stadtviertel. Findet die Klinge und bringt sie zu mir. Ich werde dafür sorge tragen, dass die beiden Brüder wiedervereint werden. Natürlich, wird das benötigte Illithium seinen Preis kosten, ich würde sagen 20.000 in Gold, falls Ihr das aufrbingen wollt.~
+@23  = ~Ihr habt beide Drachenbrüder, Masa und Mune. Ihre Klingen erzittern vor Schrecken. Ich werde die Aufgabe schnell erledigen und dafür sorgen, dass sie nicht enttäuscht werden. Habt Ihr die 20.000 in Gold?~ 
+@24  = ~Nun gut, lasst sehen, was Ihr noch habt.~
+@25  = ~Hmm... mmmn... wartet... ooooooh, cooles Schwert! Lang, spitz und silbern... Mein wertvollstes... Hehehe. Bin's ich allein oder hört Cespenar Stimmen?~
+@26  = ~Oh, dies ist Masamune? Verrückter Name... Cespenar kann nichtmal richtig aussprechen. Hmm, Silberdrachenseelen... guter Stoff für Alpträume. Ja, oh ja, mächtig, mächtig... Mmm-mm, wie auch immer, es gibt da eine gute Möglichkeit... Falls Ihr noch die Seele eines Golddrachen findet, wird Masamune noch mächtiger werden. Gebt 30.000 Goldmünzen für... Mmm-äh, gebt 30.000 Goldmünzen. Golddrachen verlieren ihre Seele nicht einfach in Eurer Gardeobe oder so, findet sie in einem Artefakt konserviert. Habt's? Seele in einem Artefakt? ... Nein? Oooh ja, Cespenar hat hier eine grooooßartige Zeit. *seufz*~
+@27  = ~Ah, Ihr habt Masamune... und den Geist des Golddrachens Doreen. Wo habt Ihr diese Stücke gefunden? Habt Ihr einen Drachenmagneten oder sowas? Ihr gebt mir Gold und ich bringe beide zusammen. Wie sollte es dann heißen? ... Hmm, jaa: Meistermune! Der Meister wird stets über Euch wachen, <CHARNAME>-san... hihihi.~
+@28  = ~Nun gut, lasst sehen, was Ihr noch habt...~
+@29  = ~Verbesserter Anarg by knightlight (WeiDU)~
+@30  = ~Helm~
+@31  = ~Anargs Helm~
+@32  = ~Anargs Helm
+
+Dies ist der persönliche Helm von Anarg, der ihm vom Orden des Strahlenden Herzens für seine Tapferkeit verliehen wurde. Angeblich half dieser Gegenstand ihm, den traditionellen Feinden seines Ordens, wie Dämonen, Drachen, Schwarzen Magiern und Untoten, besser zu widerstehen.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen Bezauberung, Furcht, Halten und Stufenabzug.
+
+Schützt vor kritischen Treffern
+Gewicht: 2
+
+Kann nur verwendet werden von:
+- gutgesinnten Klerikern 
+- gutgesinnten Paladinen~
+@33  = ~Masamune Schwert Mini-Mini-Quest - TdB by ShadowDaemon (WeiDU)~
+@34  = ~TdB erforderlich ... Du bekommst nicht das coole +6 Schwert! HA!!!~
+@35  = ~SoA Teil erforderlich! KEIN CHEATEN!!!~
+@36  = ~Erweiterte Sichtbare Ionensteine by WoRm~
+
+@100 = ~Einheitliche NPC Portraits~
+@101 = ~Einheitliches Edwin Portrait~
+@102 = ~Einheitliches Imoen Portrait~
+@103 = ~Einheitliches Jaheira Portrait~
+@104 = ~Einheitliches Minsc Portrait~
+@105 = ~Einheitliches Viconia Portrait~
+@106 = ~Einheitliches Kivan Portrait~
+@107 = ~Einheitliches Ajantis Portrait~
+@108 = ~Einheitliches Anomen Portrait~
+@109 = ~Einheitliches Yoshimo Portrait~

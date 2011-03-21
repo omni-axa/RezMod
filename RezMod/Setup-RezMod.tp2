@@ -10,6 +10,9 @@ LANGUAGE ~English~ ~english~
 LANGUAGE ~Castalleno (por Lisandro)~ ~spanish~
          ~RezMod/english/setup.tra~
          ~RezMod/spanish/setup.tra~
+LANGUAGE ~Deutsch (von Jarl)~ ~german~
+         ~RezMod/english/setup.tra~
+         ~RezMod/german/setup.tra~
 
 BEGIN @0
 
