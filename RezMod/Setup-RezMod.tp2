@@ -13,6 +13,9 @@ LANGUAGE ~Castalleno (por Lisandro)~ ~spanish~
 LANGUAGE ~Deutsch (von Jarl)~ ~german~
          ~RezMod/english/setup.tra~
          ~RezMod/german/setup.tra~
+LANGUAGE ~Russian~ ~russian~
+         ~RezMod/english/setup.tra~
+         ~RezMod/russian/setup.tra~
 
 BEGIN @0
 
