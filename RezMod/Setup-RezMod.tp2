@@ -502,9 +502,9 @@ ACTION_FOR_EACH ioun IN ~TuStoneB~ BEGIN
 END
 
 //Special Iouns
-//Gem of Harmony - Blue with yellow trail
+//Gem of Harmony, Eye of Tyr - Blue with yellow trail
 
-ACTION_FOR_EACH ioun IN ~gemh1~ BEGIN
+ACTION_FOR_EACH ioun IN ~gemh1~ ~sethel~ BEGIN
 	ACTION_IF FILE_EXISTS_IN_GAME ~%ioun%.itm~ THEN BEGIN
 		ACTION_IF FILE_EXISTS_IN_GAME ~IJ#iony5.bam~ THEN BEGIN
 			COPY_EXISTING ~%ioun%.itm~ ~override~
