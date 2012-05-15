@@ -3,7 +3,7 @@ EXTEND_BOTTOM BOTSMITH 4
     PartyHasItem("XOMASMUN")
     PartyHasItem("XODOREEN")~ THEN GOTO mstrmstr
 END
-  
+
 APPEND BOTSMITH
   IF ~~ THEN BEGIN mstrmstr SAY @25
     IF ~PartyHasItem("XOMASMUN")
@@ -11,11 +11,11 @@ APPEND BOTSMITH
     IF ~PartyHasItem("XOMASMUN")
       PartyHasItem("XODOREEN")~ THEN GOTO mstrdore
   END
-  
+
   IF ~~ THEN BEGIN nodore SAY @26
     IF ~~ THEN GOTO nonono
   END
-  
+
   IF ~~ THEN BEGIN mstrdore SAY @27
     IF ~PartyGoldLT(30000)~ THEN REPLY #66662 GOTO nonono
     IF ~PartyGoldGT(29999)~ THEN REPLY #66664 DO ~SetGlobal("MstrDore","GLOBAL",1)

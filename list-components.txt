@@ -1,17 +1,17 @@
 [weidu.exe] WeiDU version 23000
 [weidu.exe] Using scripting style "BG2"
 [RezMod/english/setup.tra] has 53 translation strings
-~REZMOD\SETUP-REZMOD.TP2~ #0 #0 // Masamune Sword Mini-Mini-Quest - SoA by ShadowDaemon (WeiDU): 2.5
-~REZMOD\SETUP-REZMOD.TP2~ #0 #1 // Masamune Sword Mini-Mini-Quest - ToB by ShadowDaemon (WeiDU): 2.5
-~REZMOD\SETUP-REZMOD.TP2~ #0 #2 // Improved Anarg by knightlight (WeiDU): 2.5
-~REZMOD\SETUP-REZMOD.TP2~ #0 #3 // Extended Visual Ioun Stones by WoRm: 2.5
-~REZMOD\SETUP-REZMOD.TP2~ #0 #4 // Extended Recargador: 2.5
-~REZMOD\SETUP-REZMOD.TP2~ #0 #100 // Consistent Edwin Portrait: 2.5
-~REZMOD\SETUP-REZMOD.TP2~ #0 #101 // Consistent Imoen Portrait: 2.5
-~REZMOD\SETUP-REZMOD.TP2~ #0 #102 // Consistent Jaheira Portrait: 2.5
-~REZMOD\SETUP-REZMOD.TP2~ #0 #103 // Consistent Minsc Portrait: 2.5
-~REZMOD\SETUP-REZMOD.TP2~ #0 #104 // Consistent Viconia Portrait: 2.5
-~REZMOD\SETUP-REZMOD.TP2~ #0 #105 // Consistent Kivan Portrait: 2.5
-~REZMOD\SETUP-REZMOD.TP2~ #0 #106 // Consistent Ajantis Portrait: 2.5
-~REZMOD\SETUP-REZMOD.TP2~ #0 #107 // Consistent Anomen Portrait: 2.5
-~REZMOD\SETUP-REZMOD.TP2~ #0 #108 // Consistent Yoshimo Portrait: 2.5
+~REZMOD\SETUP-REZMOD.TP2~ #0 #0 // Masamune Sword Mini-Mini-Quest - SoA by ShadowDaemon (WeiDU): 2.6
+~REZMOD\SETUP-REZMOD.TP2~ #0 #1 // Masamune Sword Mini-Mini-Quest - ToB by ShadowDaemon (WeiDU): 2.6
+~REZMOD\SETUP-REZMOD.TP2~ #0 #2 // Improved Anarg by knightlight (WeiDU): 2.6
+~REZMOD\SETUP-REZMOD.TP2~ #0 #3 // Extended Visual Ioun Stones by WoRm: 2.6
+~REZMOD\SETUP-REZMOD.TP2~ #0 #4 // Extended Recargador: 2.6
+~REZMOD\SETUP-REZMOD.TP2~ #0 #100 // Consistent Edwin Portrait: 2.6
+~REZMOD\SETUP-REZMOD.TP2~ #0 #101 // Consistent Imoen Portrait: 2.6
+~REZMOD\SETUP-REZMOD.TP2~ #0 #102 // Consistent Jaheira Portrait: 2.6
+~REZMOD\SETUP-REZMOD.TP2~ #0 #103 // Consistent Minsc Portrait: 2.6
+~REZMOD\SETUP-REZMOD.TP2~ #0 #104 // Consistent Viconia Portrait: 2.6
+~REZMOD\SETUP-REZMOD.TP2~ #0 #105 // Consistent Kivan Portrait: 2.6
+~REZMOD\SETUP-REZMOD.TP2~ #0 #106 // Consistent Ajantis Portrait: 2.6
+~REZMOD\SETUP-REZMOD.TP2~ #0 #107 // Consistent Anomen Portrait: 2.6
+~REZMOD\SETUP-REZMOD.TP2~ #0 #108 // Consistent Yoshimo Portrait: 2.6

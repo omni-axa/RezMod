@@ -1,6 +1,6 @@
-@0   = ~Espada Masamune Mini-Mini-Quest - SoA by ShadowDaemon (WeiDU)~ 
+@0   = ~Espada Masamune Mini-Mini-Quest - SoA by ShadowDaemon (WeiDU)~
 @1   = ~Espada Larga~
-@2   = ~Doreen +4~ 
+@2   = ~Doreen +4~
 @3   = ~Estas espadas generalmente reciben el nombre de espadas de doble filo, de guerra o militares. En muchos casos, la espada larga tiene una hoja de un sólo filo. No existe una única versión de la espada larga, ya que su diseño y longitud varían de una cultura a otra, e incluso puede cambiar dentro de una misma cultura dependiendo del período histórico. Una de las características más comunes en todas las espadas largas es su longitud, que oscila entre 90 y 120 centímetros. En el último caso, sólo la hoja llega a medir hasta 1 metro de la longitud total de la espada. La mayoría de las espadas largas son de doble filo y punta afilada. A pesar de tener punta, se diseñan para rasgar, no para apuñalar.
 
 CARACTERÍSTICAS:
@@ -17,41 +17,41 @@ No lo puede usar:
  El druida
 El clérigo
 El mago~
-@4   = ~Espada Larga de la Belleza +4: Doreen 
+@4   = ~Espada Larga de la Belleza +4: Doreen
 
-Doreen, o Do'Ree'Nelissixia tal como se pronuncia en draconiano, era una dragona dorada anciana y orgullosa. Aunque probablemente sea la más longeva de todas las especies en los reinos, los dragones también, con el tiempo envejecen y mueren. Cuando le llegó a Doreen vio su propio fin, ella no podía soportar el privar al mundo de su belleza. Antes de morir, ella pasó su alma al único objeto que podría ser como ella, bella y mortal, al mismo tiempo, una espada. Arrancó la mejor hoja de su tesoro considerable, y entregó su vida, por decirlo así, en esta hoja. 
+Doreen, o Do'Ree'Nelissixia tal como se pronuncia en draconiano, era una dragona dorada anciana y orgullosa. Aunque probablemente sea la más longeva de todas las especies en los reinos, los dragones también, con el tiempo envejecen y mueren. Cuando le llegó a Doreen vio su propio fin, ella no podía soportar el privar al mundo de su belleza. Antes de morir, ella pasó su alma al único objeto que podría ser como ella, bella y mortal, al mismo tiempo, una espada. Arrancó la mejor hoja de su tesoro considerable, y entregó su vida, por decirlo así, en esta hoja.
 
-El portador de Doreen se dará cuenta de que no sólo es la belleza de un dragón dorado lo que se le ha comunicado, sino inteligencia y sabiduría de quien ha vivido muchos milenios está ahora en sus manos. Los magos de combate se resisten a probar esta hoja, y, de hecho, ha pasado por las manos de muchos magos antes de llegar a vos. 
+El portador de Doreen se dará cuenta de que no sólo es la belleza de un dragón dorado lo que se le ha comunicado, sino inteligencia y sabiduría de quien ha vivido muchos milenios está ahora en sus manos. Los magos de combate se resisten a probar esta hoja, y, de hecho, ha pasado por las manos de muchos magos antes de llegar a vos.
 
-Doreen se ha acomodado en armonía con las actitudes de las espadas, y una vez por día puede, convocar tres espadas danzarinas que luchan por su poseedor. 
+Doreen se ha acomodado en armonía con las actitudes de las espadas, y una vez por día puede, convocar tres espadas danzarinas que luchan por su poseedor.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:
 
-Inteligencia +2 
-Sabiduría +2 
-Carisma +2 
-Convocar espadas: Convoca 3 espadas danzarinas una vez al día. Las espadas danzarinas pueden atacar por su cuenta durante 4 asaltos. 
+Inteligencia +2
+Sabiduría +2
+Carisma +2
+Convocar espadas: Convoca 3 espadas danzarinas una vez al día. Las espadas danzarinas pueden atacar por su cuenta durante 4 asaltos.
 
-GAC0: bonificador +4 
-Daño: 1D8+4 
+GAC0: bonificador +4
+Daño: 1D8+4
 Tipo de daño: cortante
-Peso: 3 
-Factor de Velocidad: 3 
-Talento marcial: espada larga 
-Tipo: a una mano 
-Requiere: 6 Fuerza 
+Peso: 3
+Factor de Velocidad: 3
+Talento marcial: espada larga
+Tipo: a una mano
+Requiere: 6 Fuerza
 
-No utilizable por: 
+No utilizable por:
  El Druida
- El Clérigo 
- El Mago~ 
+ El Clérigo
+ El Mago~
 @5   = ~Pergamino~
 @6   = ~Entradas del diario de Kangaxx~
 @7   = ~...Pareciera que el alma del dragón que tengo en esta linda espadita es más sensible de lo que pensaba. Llama por un hermano, y sólo puedo asumir que significa que el ladronzuelo que robó la espada lo hizo hace largo tiempo atrás. Tengo que encontrar una forma de detener sus llamadas sin embargo, quien me traicionare probablemente pueda escuchar la llamada también...
 
-No parece haber ninguna entrada más...~ 
+No parece haber ninguna entrada más...~
 @8   = ~Katana~
-@9   = ~Masamune +4~ 
+@9   = ~Masamune +4~
 @10  = ~Katana
 
 La katana es una espada curvada con un único filo y acabada en punta. Quizá sea una de las mejores espadas que se han fabricado nunca. Los pasos de su creación, un proceso largo y secreto, son más una forma de arte que cualquier otra cosa. Su hoja es una de las facetas más importantes de la cultura de Kara-Tur. Tocar o coger la katana de un samurái es un insulto que atraerá su ira. Que un gaijin o extranjero posea una de estas espadas es algo raro. O el gaijin ha sido honrado por un importante ministro o ha asesinado a un samurái.
@@ -98,7 +98,7 @@ No permitido a:
  El Druida
  El Mago
  El Clérigo~
-@12  = ~Mastermune +6~ 
+@12  = ~Mastermune +6~
 @13  = ~Katana de los Dragones +6: Mastermune
 
 Cespenar se ha superado a sí mismo esta vez combinando a Masamune con Doreen, la fuerza combinada de los tres poderosos dragones buenos ha sido condensada en esta hoja. Esta espada tararea en vuestra mano, y sabéis que el mal pisa una línea muy fina ahora. Los poderes de los dragones se han ampliado una vez más, y la sed de justicia de los espíritus de los dragones da fuego adicional y daños eléctricos.
@@ -115,7 +115,7 @@ Ocultar en las sombras + 50%
 Sigilo + 50%
 Protección contra el mal
 20% de probabilidad de matar al objetivo por decapitación
-Convocar espadas: Convoca 5 espadas danzarinas una vez al día. Las espadas danzarinas pueden atacar por su cuenta durante 8 asaltos. 
+Convocar espadas: Convoca 5 espadas danzarinas una vez al día. Las espadas danzarinas pueden atacar por su cuenta durante 8 asaltos.
 
 GAC0: bonificador +6
 Daño: 2D10 +6 +7 contra no-muertos + 1D6 daño por fuego +1D6 daño por electricidad
@@ -130,7 +130,7 @@ No permitido a:
  El Druida
  El Mago
  El Clérigo~
-@14  = ~Wakizashi~ 
+@14  = ~Wakizashi~
 @15  = ~Masa +2~
 @16  = ~Wakizashi
 
@@ -150,13 +150,13 @@ No permitido a:
  El Druida
  El Mago
  El Clérigo~
-@17  = ~Wakizashi de Velocidad +: Masa 
+@17  = ~Wakizashi de Velocidad +: Masa
 
-Ma'Zathix'lithia, o Masa, era un dragón de plata conocido entre los jóvenes de su familia como el más rápido dragón que ha caminado alguna vez por Faerûn. También fue conocido como un tramposo que utilizaba su talento para el movimiento rápido y sigiloso para jugar bromas a sus hermanos y robarles a los dragones ancianos sus posesiones para añadirlos a su propio tesoro. No tuvo en cuenta, que estaba aficionado con los otros benevolentes dragones de plata de combate. 
+Ma'Zathix'lithia, o Masa, era un dragón de plata conocido entre los jóvenes de su familia como el más rápido dragón que ha caminado alguna vez por Faerûn. También fue conocido como un tramposo que utilizaba su talento para el movimiento rápido y sigiloso para jugar bromas a sus hermanos y robarles a los dragones ancianos sus posesiones para añadirlos a su propio tesoro. No tuvo en cuenta, que estaba aficionado con los otros benevolentes dragones de plata de combate.
 
-Tristemente fue esa picardía que le llevó a una muerte lamentable. Una vez en sus viajes, cambio de forma a una forma humana, por supuesto, y se encontró con un grupo de magos negros con capa y capucha en un bosque aislado. Masa no estaba interesado en los acontecimientos de seres menores, pero no notó una muy luminosa y brillante joya en la que los magos aparentemente concentraban su energía mágica. Masa esperó pacientemente hasta que los magos habían terminado su ceremonia y se había trasladado a otra parte del bosque, cuando usó todos los trucos que había aprendido para conseguir la gema a escondidas, que casi tenía en sus manos, de repente su cuerpo se puso rígido y se dio cuenta de que los magos lo miraban; sus capuchas, echadas hacia atrás, dejó a la vista a seis liches esqueléticos mirando, al parecer, en el alma de Masa. En una luz cegadora de angustia, el alma del dragón joven fue arrancada de su cuerpo y almacenada en una gema muy parecida a la que estaba tratando de robar. "Dos de ellos", dijo un liche, "¿Qué se puede hacer?". "Tengo un plan", dijo el líder. El alma de Masa fue entonces imbuida en este wakizashi, y la hoja se almacenó en la cripta del maligno líder en el lugar de trabajo de los liches. 
+Tristemente fue esa picardía que le llevó a una muerte lamentable. Una vez en sus viajes, cambio de forma a una forma humana, por supuesto, y se encontró con un grupo de magos negros con capa y capucha en un bosque aislado. Masa no estaba interesado en los acontecimientos de seres menores, pero no notó una muy luminosa y brillante joya en la que los magos aparentemente concentraban su energía mágica. Masa esperó pacientemente hasta que los magos habían terminado su ceremonia y se había trasladado a otra parte del bosque, cuando usó todos los trucos que había aprendido para conseguir la gema a escondidas, que casi tenía en sus manos, de repente su cuerpo se puso rígido y se dio cuenta de que los magos lo miraban; sus capuchas, echadas hacia atrás, dejó a la vista a seis liches esqueléticos mirando, al parecer, en el alma de Masa. En una luz cegadora de angustia, el alma del dragón joven fue arrancada de su cuerpo y almacenada en una gema muy parecida a la que estaba tratando de robar. "Dos de ellos", dijo un liche, "¿Qué se puede hacer?". "Tengo un plan", dijo el líder. El alma de Masa fue entonces imbuida en este wakizashi, y la hoja se almacenó en la cripta del maligno líder en el lugar de trabajo de los liches.
 
-El alma de Masa se ha convertido en una dedicada arma contra el mal para que las acciones como estas no vuelvan a ocurrir. Debéis encontrar un socio de ayuda, sin duda seréis casi invencible. 
+El alma de Masa se ha convertido en una dedicada arma contra el mal para que las acciones como estas no vuelvan a ocurrir. Debéis encontrar un socio de ayuda, sin duda seréis casi invencible.
 
 El sigilo y la rapidez de Masa han impregnado esta hoja, por lo que es un elemento codiciado por los ladrones en todo el reino. Aumenta la destreza del portador, así como incrementa la habilidad de sigilo del portador. Masa no tiene ningún factor de velocidad.
 
@@ -179,12 +179,12 @@ No permitido a:
  El Druida
  El Mago
  El Clérigo~
-@18  = ~Mune +2~ 
-@19  = ~Wakizashi de la Fuerza +2: Mune 
+@18  = ~Mune +2~
+@19  = ~Wakizashi de la Fuerza +2: Mune
 
-Mun'Ayisslith, o Mune, para abreviar, fue uno de los hermanos del dragón de plata, Masa. Aunque Masa fue rápido y ágil, Mune fue muy fuerte y resistente. Mune tenía un sentido muy amplio del deber, y se encargó de ver que Masa no se metiera en demasiados problemas. Su vida, aunque breve, era feliz, y su muerte, como su vida, centrada alrededor del destino. 
+Mun'Ayisslith, o Mune, para abreviar, fue uno de los hermanos del dragón de plata, Masa. Aunque Masa fue rápido y ágil, Mune fue muy fuerte y resistente. Mune tenía un sentido muy amplio del deber, y se encargó de ver que Masa no se metiera en demasiados problemas. Su vida, aunque breve, era feliz, y su muerte, como su vida, centrada alrededor del destino.
 
-Un día, mientras volaba, Mune vio a Masa arrastrarse alrededor de los bosques en forma humana, y también descubrió que estaba definitivamente en problemas; dirigiéndose a la trayectoria de su hermano, con seis liches en una arboleda, Masa vislumbraba la figura que haría de él un terrible dragón como adulto, pero a su edad actual, no sería rival en una batalla. Mune se lanzó para salvar a su hermano, así como limpiar la tierra de estos magos no-muertos del mal. Bajó en picada y desató un ataque temible, pero los liches lo sobrepasaron con su magia. "¿Qué vamos a hacer con este joven y entusiasta draco, Kangaxx?", Preguntó un liche a otro que, evidentemente, estaba a cargo. "El alma de éste es mío". Un destello cegador de dolor y luego una nada flotando, la esencia de Mune fue atrapada en una piedra de alma. Después de lo que pareció una eternidad, despertó, y es el espíritu y la esencia impregnada en esta hoja. El liche, Kangaxx, mantuvo a Mune con él todo el tiempo, y cuando fue encarcelado Kangaxx, Mune fue encarcelado con él. 
+Un día, mientras volaba, Mune vio a Masa arrastrarse alrededor de los bosques en forma humana, y también descubrió que estaba definitivamente en problemas; dirigiéndose a la trayectoria de su hermano, con seis liches en una arboleda, Masa vislumbraba la figura que haría de él un terrible dragón como adulto, pero a su edad actual, no sería rival en una batalla. Mune se lanzó para salvar a su hermano, así como limpiar la tierra de estos magos no-muertos del mal. Bajó en picada y desató un ataque temible, pero los liches lo sobrepasaron con su magia. "¿Qué vamos a hacer con este joven y entusiasta draco, Kangaxx?", Preguntó un liche a otro que, evidentemente, estaba a cargo. "El alma de éste es mío". Un destello cegador de dolor y luego una nada flotando, la esencia de Mune fue atrapada en una piedra de alma. Después de lo que pareció una eternidad, despertó, y es el espíritu y la esencia impregnada en esta hoja. El liche, Kangaxx, mantuvo a Mune con él todo el tiempo, y cuando fue encarcelado Kangaxx, Mune fue encarcelado con él.
 
 La esencia de Muse impregna esta hoja, y concede a quien la ejerce, los bonificadores a la fuerza y la constitución. Mune nunca se reunió con su hermano, su fuerza sería forjar un arma destinada a infundir miedo en el corazón de todos los males en todos los reinos.
 
@@ -206,10 +206,10 @@ No permitido a:
  El Druida
  El Mago
  El Clérigo~
-@20  = ~Hmmm ... Sí, ahora, esto parece interesante ...~ 
-@21  = ~Antiguas leyendas, hablan de dos desafortunados dragones que fueron capturados por un malvado liche en dos hojas muy poderosas. Esta espada ...  sería Masa, uno de los dos dragones. Su espíritu parece estar inquieto dentro de la hoja. Os digo que su hermano, Mune, parece estar muy cerca. En esta ciudad, tal vez, quizás incluso en este mismo distrito. Encontrad la hoja y traédmela. Me aseguraré de que los hermanos sean reunidos. Por supuesto, necesitaría illitio y 20.000 de oro, y os podré arreglar esto.~ 
+@20  = ~Hmmm ... Sí, ahora, esto parece interesante ...~
+@21  = ~Antiguas leyendas, hablan de dos desafortunados dragones que fueron capturados por un malvado liche en dos hojas muy poderosas. Esta espada ...  sería Masa, uno de los dos dragones. Su espíritu parece estar inquieto dentro de la hoja. Os digo que su hermano, Mune, parece estar muy cerca. En esta ciudad, tal vez, quizás incluso en este mismo distrito. Encontrad la hoja y traédmela. Me aseguraré de que los hermanos sean reunidos. Por supuesto, necesitaría illitio y 20.000 de oro, y os podré arreglar esto.~
 @22  = ~Antiguas leyendas, hablan de dos desafortunados dragones que fueron capturados por un malvado liche en dos hojas muy poderosas. Esta espada ...  sería Mune, uno de los dos dragones. Su espíritu parece estar inquieto dentro de la hoja. Os digo que su hermano, Masa, parece estar muy cerca. En esta ciudad, tal vez, quizás incluso en este mismo distrito. Encontrad la hoja y traédmela. Me aseguraré de que los hermanos sean reunidos. Por supuesto, necesitaría illitio y 20.000 de oro, y os podré arreglar esto.~
-@23  = ~Tenéis a los dos dragones hermanos, Masa y Mune. Sus hojas tiemblan de ansiedad. Voy a hacer un trabajo rápido y me aseguraré de que no seamos decepcionados. ¿Tenéis las 20.000 monedas de oro?.~ 
+@23  = ~Tenéis a los dos dragones hermanos, Masa y Mune. Sus hojas tiemblan de ansiedad. Voy a hacer un trabajo rápido y me aseguraré de que no seamos decepcionados. ¿Tenéis las 20.000 monedas de oro?.~
 @24  = ~Bien, dejadme ver que más tenéis.~
 @25  = ~Hmm ... mmmn .... Esperad ... oooooooohhh, brillante espada. Larga, puntiaguda y de plata también ... Mi tesoro ... jejejeje. ¿Soy yo, o es Cespenar oyendo voces?.~
 @26  = ~¿Oh, esta es Masamune? Nombre de locos... Cespenar ni siquiera puede decir animal normal. Hmm, los espíritus de los dragones plateados ... bueno para las pesadillas. Sí, sí, es dar demasiado poder ... deeeee cualquier modo hay una buena receta para esto ... si encontráis algún espíritu de dragón dorado, Masamune obtendrá más poder. Me tendréis que dar 30.000 monedas de oro para ... umm, sep necesitaré 30.000 monedas de oro. Oh, sí, los dragones dorados no dejan su espíritu en su vestidor  ni por ahí, sólo los encontraréis dentro de artículos. ¿Conseguirlo? ¿Espíritu en su interior? ... ¿No? Ooooh niño, Cespenar va a tener un graaaaaaaaaan momento aquí. * Suspiro *~ ~¿Oh, esta es Masamune? Nombre de locos... Cespenar ni siquiera puede decir animal normal. Hmm, los espíritus de los dragones plateados ... bueno para las pesadillas. Sí, sí, es dar demasiado poder ... deeeee cualquier modo hay una buena receta para esto ... si encontráis algún espíritu de dragón dorado, Masamune obtendrá más poder. Me tendréis que dar 30.000 monedas de oro para ... umm, sep necesitaré 30.000 monedas de oro. Oh, sí, los dragones dorados no dejan su espíritu en su vestidor  ni por ahí, sólo los encontraréis dentro de artículos. ¿Conseguirlo? ¿Espíritu en su interior? ... ¿No? Ooooh niña, Cespenar va a tener un graaaaaaaaaan momento aquí. * Suspiro *~

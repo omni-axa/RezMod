@@ -1,6 +1,6 @@
-@0   = ~Masamune Schwert Mini-Mini-Quest - SvA by ShadowDaemon (WeiDU)~ 
+@0   = ~Masamune Schwert Mini-Mini-Quest - SvA by ShadowDaemon (WeiDU)~
 @1   = ~Langschwert~
-@2   = ~Doreen +4~ 
+@2   = ~Doreen +4~
 @3   = ~Diese Schwerter werden auch als Schwerter mit zwei Schneiden, Kriegsschwerter oder Militärschwerter bekannt. In vielen Fällen hat das Langschwert nur eine einschneidige Klinge. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 cm und 1,20 m beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweichneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen sondern zum Schwingen vorgesehen.
 
 EIGENSCHAFTEN:
@@ -40,14 +40,14 @@ Mindeststärke: 6
 Kann nicht verwendet werden von:
  Druiden
  Klerikern
- Magiern~ 
+ Magiern~
 @5   = ~Schriftrolle~
 @6   = ~Eintrag aus Kangaxx Tagebuch~
 @7   = ~... es scheint, als wäre die Drachenseele in diesem hübschen, kleinen Schwert empfindsamer als ich dachte. Sie ruft nach ihrem Bruder und ich kann nur vermuten, dass sie den Drachen in jener Klinge meint, die vor Kurzem gestohlen wurde. Ich muss einen Weg finden, diesen Ruf irgendwie zu dämpfen, denn jene die mich verraten wollen, könnten den Ruf ebenso vernehmen...
 
-(Ende der Einträge)~ 
+(Ende der Einträge)~
 @8   = ~Katana~
-@9   = ~Masamune~ 
+@9   = ~Masamune~
 @10  = ~Das Katana ist ein Schwert, dessen Klinge nur auf einer Seite scharf ist. Es ist leicht gekrümmt und endet in einer Spitze, die an die Spitze eines Meißels erinnert. Das Katana stellt vermutlich die aufwendigste Form des Schwertes dar. Seine Fertigung ist ein langer, aufwendiger und höchst geheimer Vorgang, den man schon fast als Kunstwerk bezeichnen müsste. Dieses Schwert spielt in der Kultur von Kara-Tur eine wichtige Rolle. Wenn man es wagt, das Katana eines Samurais zu berühren oder gar zu ziehen, beleidigt man den Samurai, dem es gehört, und zieht seinen Zorn auf sich. Es kommt nur äußerst selten vor, dass ein Gaijin, ein Fremder, in den Besitz einer derartigen Waffe kommt. Entweder handelt es sich bei diesem Gaijin dann um den geehrten Freund eines wichtigen Ministers oder um den Mörder eines Samurais.
 
 EIGENSCHAFTEN:
@@ -89,7 +89,7 @@ Kann nicht verwendet werden von:
 Druiden
 Klerikern
 Magiern~
-@12  = ~Meistermune~ 
+@12  = ~Meistermune~
 @13  = ~Meistermune, Katana der Drachen +6
 
 Cespenar hat sich dieses Mal selbst übertroffen. Indem er Masamune und Doreen miteinander kombiniert hat, ist die Macht von drei gut gesinnten Drachen in dieser Klinge vereint. Das Schwert summt in Eurer Hand und Ihr wisst, dass das Böse es nun schwer mit Euch haben wird. Die gekoppelte Drachenmacht und deren Durst nach Gerechtigkeit kanalisiert ungeheure Kräfte, die dem Ziel weiteren Feuer- und Elektrizitätsschaden zufügt.
@@ -104,7 +104,7 @@ Träger kann 1x täglich 5 tanzende Schwerter für 8 Runden beschwören.
 EIGENSCHAFTEN:
 
 Schaden: 2W10+6 (Klinge)
-Schadensbonus: 
+Schadensbonus:
 +1W6 (Feuer)
 +1W6 (Elektrizität)
 +7 gegen Untote
@@ -125,7 +125,7 @@ Kann nicht verwendet werden von:
 Druiden
 Klerikern
 Magiern~
-@14  = ~Wakizashi~ 
+@14  = ~Wakizashi~
 @15  = ~Masa~
 @16  = ~Das Wakizashi, auch Begleitschwert genannt, ist für einen Samurai von höchster Wichtigkeit. Es wird von ihm ständig getragen, auch wenn er sich in einem Gebäude aufhält. Wenn er schläft, liegt es neben ihm. Das Wakizashi ist von ebenso hochwertiger Fertigung wie das Katana. Es ist allerdings deutlich kürzer und die Klinge ist nur 30 bis 60 cm lang. In den Händen eines geschulten Kriegers ist es eine tödliche Waffe.
 
@@ -148,7 +148,7 @@ Leider war es gerade diese Schelmenhaftigkeit, die zu seinem unglücklichen Unter
 
 Masas Seele ist ganz dem Kampf gegen das Böse gewidmet, damit sich eine solche Tragödie niemals wiederhole. Sollte er einen Helfer finden, wären beide mit Sicherheit unschlagbar.
 
-Masas List und Schnelligkeit haben diese Klinge durchdrungen, was sie zu einem begehrten Artefakt für Diebe überall in den Reichen macht. 
+Masas List und Schnelligkeit haben diese Klinge durchdrungen, was sie zu einem begehrten Artefakt für Diebe überall in den Reichen macht.
 
 EIGENSCHAFTEN:
 
@@ -165,7 +165,7 @@ Kann nicht verwendet werden von:
 Druiden
 Klerikern
 Magiern~
-@18  = ~Mune~ 
+@18  = ~Mune~
 @19  = ~Mune, Wakizashi der Stärke +2
 
 Mun'Ayisslith, oder kurz Mune, war einer der Brüder des Silberdrachens Masa. Während Masa schnell und flink war, war Mune stark und strend. Mune hatte ein großes Pflichtbewusstsein und achtete darauf, dass sein Bruder Masa nicht in allzu große Schwierigkeiten kam. Er führte ein glückliches, wenn auch kurzes Leben und sein Tod war wie das Leben durch Pflichterfüllung geprägt.
@@ -177,7 +177,7 @@ Munes Wesen durchströmt diese Klinge und garantiert seinem Träger Stärke und Leb
 EIGENSCHAFTEN:
 
 Schaden: 1W8+2 (Stich)
-Schadensbonus: +3 gegen Untote 
+Schadensbonus: +3 gegen Untote
 ETW0-Bonus: -2
 Stärke: +1
 Konstitution: +1
@@ -191,10 +191,10 @@ Kann nicht verwendet werden von:
 Druiden
 Klerikern
 Magiern~
-@20  = ~Hmm... aye, nun, das sieht interessant aus...~ 
-@21  = ~Uralte Legenden sprechen von zwei bedauernswerten Drachenjungen, die von einem bösen Lich in zwei mächtige Klingen gebannt wurden. Dieses Schwert... das müsste Masa sein, einer der beiden Drachen. Sein Geist scheint in dieser Klinge scheint ruhelos. Ich werd' Euch was sagen, sein Bruder, Mune, scheint nahe zu sein. In dieser Stadt, vielleicht sogar in diesem Stadtviertel. Findet die Klinge und bringt sie zu mir. Ich werde dafür sorge tragen, dass die beiden Brüder wiedervereint werden. Natürlich, wird das benötigte Illithium seinen Preis kosten, ich würde sagen 20.000 in Gold, falls Ihr das aufrbingen wollt.~ 
+@20  = ~Hmm... aye, nun, das sieht interessant aus...~
+@21  = ~Uralte Legenden sprechen von zwei bedauernswerten Drachenjungen, die von einem bösen Lich in zwei mächtige Klingen gebannt wurden. Dieses Schwert... das müsste Masa sein, einer der beiden Drachen. Sein Geist scheint in dieser Klinge scheint ruhelos. Ich werd' Euch was sagen, sein Bruder, Mune, scheint nahe zu sein. In dieser Stadt, vielleicht sogar in diesem Stadtviertel. Findet die Klinge und bringt sie zu mir. Ich werde dafür sorge tragen, dass die beiden Brüder wiedervereint werden. Natürlich, wird das benötigte Illithium seinen Preis kosten, ich würde sagen 20.000 in Gold, falls Ihr das aufrbingen wollt.~
 @22  = ~Uralte Legenden sprechen von zwei bedauernswerten Drachenjungen, die von einem bösen Lich in zwei mächtige Klingen gebannt wurden. Dieses Schwert... das müsste Mune sein, einer der beiden Drachen. Sein Geist scheint in dieser Klinge scheint ruhelos. Ich werd' Euch was sagen, sein Bruder, Masa, scheint nahe zu sein. In dieser Stadt, vielleicht sogar in diesem Stadtviertel. Findet die Klinge und bringt sie zu mir. Ich werde dafür sorge tragen, dass die beiden Brüder wiedervereint werden. Natürlich, wird das benötigte Illithium seinen Preis kosten, ich würde sagen 20.000 in Gold, falls Ihr das aufrbingen wollt.~
-@23  = ~Ihr habt beide Drachenbrüder, Masa und Mune. Ihre Klingen erzittern vor Schrecken. Ich werde die Aufgabe schnell erledigen und dafür sorgen, dass sie nicht enttäuscht werden. Habt Ihr die 20.000 in Gold?~ 
+@23  = ~Ihr habt beide Drachenbrüder, Masa und Mune. Ihre Klingen erzittern vor Schrecken. Ich werde die Aufgabe schnell erledigen und dafür sorgen, dass sie nicht enttäuscht werden. Habt Ihr die 20.000 in Gold?~
 @24  = ~Nun gut, lasst sehen, was Ihr noch habt.~
 @25  = ~Hmm... mmmn... wartet... ooooooh, cooles Schwert! Lang, spitz und silbern... Mein wertvollstes... Hehehe. Bin's ich allein oder hört Cespenar Stimmen?~
 @26  = ~Oh, dies ist Masamune? Verrückter Name... Cespenar kann nichtmal richtig aussprechen. Hmm, Silberdrachenseelen... guter Stoff für Alpträume. Ja, oh ja, mächtig, mächtig... Mmm-mm, wie auch immer, es gibt da eine gute Möglichkeit... Falls Ihr noch die Seele eines Golddrachen findet, wird Masamune noch mächtiger werden. Gebt 30.000 Goldmünzen für... Mmm-äh, gebt 30.000 Goldmünzen. Golddrachen verlieren ihre Seele nicht einfach in Eurer Gardeobe oder so, findet sie in einem Artefakt konserviert. Habt's? Seele in einem Artefakt? ... Nein? Oooh ja, Cespenar hat hier eine grooooßartige Zeit. *seufz*~
@@ -215,7 +215,7 @@ Schützt vor kritischen Treffern
 Gewicht: 2
 
 Kann nur verwendet werden von:
-- gutgesinnten Klerikern 
+- gutgesinnten Klerikern
 - gutgesinnten Paladinen~
 @33  = ~Masamune Schwert Mini-Mini-Quest - TdB by ShadowDaemon (WeiDU)~
 @34  = ~TdB erforderlich ... Du bekommst nicht das coole +6 Schwert! HA!!!~

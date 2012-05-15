@@ -1,7 +1,7 @@
 @0   = ~Masamune Sword Mini-Mini-Quest - SoA by ShadowDaemon (WeiDU)~
 @1   = ~Long Sword~
 @2   = ~Doreen +4~
-@3   = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords.  In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era.  Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches.  In the latter case, the blade is known to take up 40 inches of the total length.  Most long swords have a double-edged blade and a sharp point at the tip.  Despite the tip, the long sword is designed for slashing, not thrusting. 
+@3   = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords.  In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era.  Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches.  In the latter case, the blade is known to take up 40 inches of the total length.  Most long swords have a double-edged blade and a sharp point at the tip.  Despite the tip, the long sword is designed for slashing, not thrusting.
 
 STATISTICS:
 
@@ -222,6 +222,7 @@ Usable By:
 @34  = ~ToB required ... You don't get the shiny +6 sword! HA!!!~
 @35  = ~SoA portion required! NO CHEATING!!!~
 @36  = ~Extended Visual Ioun Stones by WoRm~
+
 @37  = ~Extended Recargador~
 @38  = ~Recargador Mod not found! :(~
 @39  = ~Hmm. I'd prefer to recharge another object though.~
